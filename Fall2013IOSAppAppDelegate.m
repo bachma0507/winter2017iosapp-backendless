@@ -17,16 +17,21 @@
 #import "Reachability.h"
 #import "RNCachingURLProtocol.h"
 #import "Fall2013IOSAppViewController.h"
-#import <Parse/Parse.h>
+//#import <Parse/Parse.h>
 #import <FacebookSDK/FBsession.h>
 #import "MBProgressHUD.h"
 #import "StartPageViewController.h"
 #import <AdSupport/AdSupport.h>
-#import <ParseFacebookUtils/PFFacebookUtils.h>
+//#import <ParseFacebookUtils/PFFacebookUtils.h>
 #import "NSDate+TimeStyle.h"
 //#import "iRate.h"
 //#import <FYX/FYX.h>
+#import "Backendless.h"
+#import "Alerts.h"
 
+static NSString *APP_ID = @"76A9F704-30A1-B509-FF98-9FD7549C0100";
+static NSString *SECRET_KEY = @"DAC5475D-A770-E3C6-FF80-3EF3983D6A00";
+static NSString *VERSION_NUM = @"v1";
 
 @implementation Fall2013IOSAppAppDelegate
 
@@ -74,9 +79,9 @@ int iNotificationCounter=0;
 #define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
 #define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
 
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
-    return [PFFacebookUtils handleOpenURL:url];
-}
+//- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+//    return [PFFacebookUtils handleOpenURL:url];
+//}
 
 
 
@@ -99,6 +104,12 @@ int iNotificationCounter=0;
     // register for push notifications!
     [[PushNotificationManager pushManager] registerForPushNotifications];
     
+    backendless.hostURL = @"https://api.backendless.com";
+    
+    //[backendless initApp:@"76A9F704-30A1-B509-FF98-9FD7549C0100" secret:@"DAC5475D-A770-E3C6-FF80-3EF3983D6A00" version:@"v1"];
+    
+    [backendless initApp:APP_ID secret:SECRET_KEY version:VERSION_NUM];
+    
     self.customLocationManager = [[CLLocationManager alloc] init];
     self.customLocationManager.desiredAccuracy = kCLLocationAccuracyKilometer;
     self.customLocationManager.delegate = self;
@@ -119,15 +130,15 @@ int iNotificationCounter=0;
     // Use this option to notifiy beta users of any updates
     
     
-    [Parse setApplicationId:@"hBYfmdNtJEjzBKMJYrE3rNrHmggbI8TeCJ3j1zj8"
-                  clientKey:@"g4V5YCaLfi0SDIB7LzcU0T4D9RJUhQ7loSc1Mzbt"];
+    //[Parse setApplicationId:@"hBYfmdNtJEjzBKMJYrE3rNrHmggbI8TeCJ3j1zj8"
+    //              clientKey:@"g4V5YCaLfi0SDIB7LzcU0T4D9RJUhQ7loSc1Mzbt"];
     
-    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    //[PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
    
     [Crittercism enableWithAppID:@"0b855ac1c1e34e039b210e688d846f8100555300"];
     
-    [PFFacebookUtils initializeFacebook];
+    //[PFFacebookUtils initializeFacebook];
     
     [NSURLProtocol registerClass:[RNCachingURLProtocol class]];
     
@@ -2480,10 +2491,10 @@ int iNotificationCounter=0;
      [[PushNotificationManager pushManager] handlePushRegistration:deviceToken];
     
     // Store the deviceToken in the current installation and save it to Parse.
-    PFInstallation *currentInstallation = [PFInstallation currentInstallation];
-    [currentInstallation setDeviceTokenFromData:deviceToken];
-    currentInstallation.channels = @[ @"global" ];
-    [currentInstallation saveInBackground];
+//    PFInstallation *currentInstallation = [PFInstallation currentInstallation];
+//    [currentInstallation setDeviceTokenFromData:deviceToken];
+//    currentInstallation.channels = @[ @"global" ];
+//    [currentInstallation saveInBackground];
     
 }
 
@@ -2508,7 +2519,7 @@ int iNotificationCounter=0;
     tabBarItem2.badgeValue = [NSString stringWithFormat:@"%d",iNotificationCounter];
     //-------------------------------------//
     //Parse handle
-    [PFPush handlePush:userInfo];
+    //[PFPush handlePush:userInfo];
     
     //[[PushIOManager sharedInstance] didReceiveRemoteNotification:userInfo];
     

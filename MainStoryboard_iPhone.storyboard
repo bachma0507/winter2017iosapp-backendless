@@ -677,7 +677,7 @@
         <!--Notifications-->
         <scene sceneID="Isc-lL-9qP">
             <objects>
-                <tableViewController id="eGd-5X-Qle" customClass="PFNewsAlertsViewController" sceneMemberID="viewController">
+                <tableViewController id="eGd-5X-Qle" customClass="BENewsAlertsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="84" sectionHeaderHeight="22" sectionFooterHeight="22" id="ND5-zr-atZ">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

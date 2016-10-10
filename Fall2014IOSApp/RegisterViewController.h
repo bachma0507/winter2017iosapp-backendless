@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StartViewController.h"
 
 @interface RegisterViewController : UIViewController
 
@@ -18,4 +19,5 @@
 -(IBAction)signUpUserPressed:(id)sender;
 
 @end
+
 

@@ -162,6 +162,11 @@
 		4C429C601DAA902D008D243A /* Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C429C5B1DAA902D008D243A /* Alerts.m */; };
 		4C429C611DAA902D008D243A /* BEFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C429C5D1DAA902D008D243A /* BEFile.m */; };
 		4C429C621DAA902D008D243A /* WallImageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C429C5F1DAA902D008D243A /* WallImageObject.m */; };
+		4C429C6B1DAC3B8F008D243A /* BrowseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C429C641DAC3B8F008D243A /* BrowseViewController.m */; };
+		4C429C6C1DAC3B8F008D243A /* ImagePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C429C661DAC3B8F008D243A /* ImagePreviewViewController.m */; };
+		4C429C6D1DAC3B8F008D243A /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C429C681DAC3B8F008D243A /* StartViewController.m */; };
+		4C429C6E1DAC3B8F008D243A /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C429C6A1DAC3B8F008D243A /* SuccessViewController.m */; };
+		4C429C711DAC3CA9008D243A /* BENewsAlertsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C429C701DAC3CA9008D243A /* BENewsAlertsTableViewController.m */; };
 		4C43CE95174741A7008AAA9D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C43CE94174741A7008AAA9D /* CoreLocation.framework */; };
 		4C43CE97174741B0008AAA9D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C43CE96174741B0008AAA9D /* SystemConfiguration.framework */; };
 		4C43CE991747421A008AAA9D /* pushio_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C43CE981747421A008AAA9D /* pushio_config.json */; };
@@ -1076,6 +1081,16 @@
 		4C429C5D1DAA902D008D243A /* BEFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEFile.m; sourceTree = "<group>"; };
 		4C429C5E1DAA902D008D243A /* WallImageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallImageObject.h; sourceTree = "<group>"; };
 		4C429C5F1DAA902D008D243A /* WallImageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallImageObject.m; sourceTree = "<group>"; };
+		4C429C631DAC3B8F008D243A /* BrowseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowseViewController.h; sourceTree = "<group>"; };
+		4C429C641DAC3B8F008D243A /* BrowseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseViewController.m; sourceTree = "<group>"; };
+		4C429C651DAC3B8F008D243A /* ImagePreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePreviewViewController.h; sourceTree = "<group>"; };
+		4C429C661DAC3B8F008D243A /* ImagePreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePreviewViewController.m; sourceTree = "<group>"; };
+		4C429C671DAC3B8F008D243A /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		4C429C681DAC3B8F008D243A /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		4C429C691DAC3B8F008D243A /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
+		4C429C6A1DAC3B8F008D243A /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
+		4C429C6F1DAC3CA9008D243A /* BENewsAlertsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BENewsAlertsTableViewController.h; sourceTree = "<group>"; };
+		4C429C701DAC3CA9008D243A /* BENewsAlertsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BENewsAlertsTableViewController.m; sourceTree = "<group>"; };
 		4C43CE94174741A7008AAA9D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		4C43CE96174741B0008AAA9D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4C43CE981747421A008AAA9D /* pushio_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pushio_config.json; sourceTree = "<group>"; };
@@ -3378,6 +3393,8 @@
 		4CCB78D41843B4C600D9D1C6 /* News&Alerts */ = {
 			isa = PBXGroup;
 			children = (
+				4C429C6F1DAC3CA9008D243A /* BENewsAlertsTableViewController.h */,
+				4C429C701DAC3CA9008D243A /* BENewsAlertsTableViewController.m */,
 				4CD3ADC218B8699700497309 /* PFNewsAlertsViewController.h */,
 				4CD3ADC318B8699700497309 /* PFNewsAlertsViewController.m */,
 			);
@@ -3592,6 +3609,14 @@
 		4CCB78E61843B8AC00D9D1C6 /* iPhoneGallery */ = {
 			isa = PBXGroup;
 			children = (
+				4C429C631DAC3B8F008D243A /* BrowseViewController.h */,
+				4C429C641DAC3B8F008D243A /* BrowseViewController.m */,
+				4C429C651DAC3B8F008D243A /* ImagePreviewViewController.h */,
+				4C429C661DAC3B8F008D243A /* ImagePreviewViewController.m */,
+				4C429C671DAC3B8F008D243A /* StartViewController.h */,
+				4C429C681DAC3B8F008D243A /* StartViewController.m */,
+				4C429C691DAC3B8F008D243A /* SuccessViewController.h */,
+				4C429C6A1DAC3B8F008D243A /* SuccessViewController.m */,
 				4C018E291808E15400A567C6 /* LoginViewController.h */,
 				4C018E2A1808E15400A567C6 /* LoginViewController.m */,
 				4C018E341808E6D700A567C6 /* RegisterViewController.h */,
@@ -4434,6 +4459,7 @@
 				4C1F7B321777872800BC66B3 /* ContactUsViewController.m in Sources */,
 				4C9B1D9519E31F4B007E0F51 /* AFURLResponseSerialization.m in Sources */,
 				4CD8E09D1938121600A4326C /* BarViewController.m in Sources */,
+				4C429C6C1DAC3B8F008D243A /* ImagePreviewViewController.m in Sources */,
 				4C1F7B3517778A5C00BC66B3 /* CECInfoViewController.m in Sources */,
 				4C9B1D8E19E31F4B007E0F51 /* AFHTTPRequestOperation.m in Sources */,
 				4CCD3F6F1777F811002E11DC /* SVModalWebViewController.m in Sources */,
@@ -4453,6 +4479,7 @@
 				4CBCB2C7180878EA008D4522 /* PFAlertViewController.m in Sources */,
 				4CD8E09E1938121600A4326C /* ResultTableViewCell.m in Sources */,
 				4C8A834E177B80B800022E03 /* ExhibitorsDetailViewController.m in Sources */,
+				4C429C6B1DAC3B8F008D243A /* BrowseViewController.m in Sources */,
 				4CD8E07F1937E42F00A4326C /* OAConsumer.m in Sources */,
 				4C6AE8B81BCEB2E6000590F5 /* VideoViewController.m in Sources */,
 				4C58E0211BF7E8DA003D3593 /* CoreDataHelper.m in Sources */,
@@ -4492,9 +4519,11 @@
 				4CD8E0851937E42F00A4326C /* OARequestParameter.m in Sources */,
 				4C088C66177F667500CFBC96 /* NSManagedObjectContext+MagicalRecord.m in Sources */,
 				4C088C67177F667500CFBC96 /* NSManagedObjectContext+MagicalSaves.m in Sources */,
+				4C429C6D1DAC3B8F008D243A /* StartViewController.m in Sources */,
 				4C326EB81963407B006D4B76 /* NightViewController.m in Sources */,
 				4C088C68177F667500CFBC96 /* NSManagedObjectContext+MagicalThreading.m in Sources */,
 				4C9B1D9A19E31F4B007E0F51 /* UIButton+AFNetworking.m in Sources */,
+				4C429C711DAC3CA9008D243A /* BENewsAlertsTableViewController.m in Sources */,
 				4CA637E71BEA5A2E0068BA25 /* Fall2013IOSAppAppDelegate.m in Sources */,
 				4C9B1D9419E31F4B007E0F51 /* AFURLRequestSerialization.m in Sources */,
 				4CD8E0811937E42F00A4326C /* OAHMAC_SHA1SignatureProvider.m in Sources */,
@@ -4510,6 +4539,7 @@
 				4C088C6E177F667500CFBC96 /* MagicalRecord+iCloud.m in Sources */,
 				4C428655194A0B2A007A5A11 /* CommentsViewController.m in Sources */,
 				4C088C6F177F667500CFBC96 /* MagicalRecord+Options.m in Sources */,
+				4C429C6E1DAC3B8F008D243A /* SuccessViewController.m in Sources */,
 				4C429C611DAA902D008D243A /* BEFile.m in Sources */,
 				4CD8E0771937E42F00A4326C /* NSMutableURLRequest+Parameters.m in Sources */,
 				4C9B1E1D19E34387007E0F51 /* JSQMessagesCollectionViewFlowLayout.m in Sources */,

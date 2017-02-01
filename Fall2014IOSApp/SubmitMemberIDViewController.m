@@ -194,6 +194,12 @@
                             
                             NSLog(@"RESULTS2 COUNT IS: %lu", (unsigned long)results2.count);
                             
+                            if (results2.count == 0) {///added this to account for items that were not imported into core data
+                                NSLog(@"The session %@ cannot be found", myFunctions.functioncd);
+                            }
+                            
+                            else{
+                            
                             NSManagedObject *object = [results2 objectAtIndex:0];
                             [object setValue:@"Yes" forKey:@"planner"];
                             
@@ -246,7 +252,7 @@
                             else{
                                 success = YES;
                             }
-                            
+                            }
                             
                         }
                         
@@ -282,6 +288,7 @@
     }
 
 }
+
 
 - (IBAction)loginClicked:(id)sender {
     

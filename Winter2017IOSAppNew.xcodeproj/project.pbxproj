@@ -184,7 +184,6 @@
 		4C48F0121D91D15200EE725B /* winter2017Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4C48F0111D91D15200EE725B /* winter2017Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4C48F0221D91D15200EE725B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C48F0211D91D15200EE725B /* Assets.xcassets */; };
 		4C48F0261D91D15200EE725B /* winter2017Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4C48F0051D91D15100EE725B /* winter2017Watch.app */; };
-		4C4A456D18E9D7DA003A14C3 /* libCrittercism_v4_1_1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4A456B18E9D7DA003A14C3 /* libCrittercism_v4_1_1.a */; };
 		4C4A7AB91BC8011700F0EC5F /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A7AB41BC8011700F0EC5F /* green.png */; };
 		4C4A7ABA1BC8011700F0EC5F /* green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A7AB51BC8011700F0EC5F /* green@2x.png */; };
 		4C4A7ABB1BC8011700F0EC5F /* green@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A7AB61BC8011700F0EC5F /* green@2x~ipad.png */; };
@@ -477,6 +476,7 @@
 		4CB8E25D1AA421FA00F8638A /* SpeakersCan15.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB8E2581AA421FA00F8638A /* SpeakersCan15.png */; };
 		4CB8E25E1AA421FA00F8638A /* SpeakersCan15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB8E2591AA421FA00F8638A /* SpeakersCan15@2x.png */; };
 		4CBA38C71D9C4BF700B739A8 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBA38C61D9C4BF700B739A8 /* libstdc++.tbd */; };
+		4CBBA4BE1E43882700F730D4 /* Crittercism.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBBA4BD1E43882700F730D4 /* Crittercism.framework */; };
 		4CBCB2C7180878EA008D4522 /* PFAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCB2C6180878EA008D4522 /* PFAlertViewController.m */; };
 		4CBE7298198C05400090DA6E /* Speakers2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE7297198C05400090DA6E /* Speakers2.m */; };
 		4CBE729B198C05530090DA6E /* Speakers3.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE729A198C05530090DA6E /* Speakers3.m */; };
@@ -1125,7 +1125,6 @@
 		4C4A456818E9D7DA003A14C3 /* Crittercism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crittercism.h; sourceTree = "<group>"; };
 		4C4A456918E9D7DA003A14C3 /* CrittercismDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrittercismDelegate.h; sourceTree = "<group>"; };
 		4C4A456A18E9D7DA003A14C3 /* dsym_upload.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = dsym_upload.sh; sourceTree = "<group>"; };
-		4C4A456B18E9D7DA003A14C3 /* libCrittercism_v4_1_1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCrittercism_v4_1_1.a; sourceTree = "<group>"; };
 		4C4A7AB41BC8011700F0EC5F /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
 		4C4A7AB51BC8011700F0EC5F /* green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green@2x.png"; sourceTree = "<group>"; };
 		4C4A7AB61BC8011700F0EC5F /* green@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green@2x~ipad.png"; sourceTree = "<group>"; };
@@ -1520,6 +1519,7 @@
 		4CB8E2581AA421FA00F8638A /* SpeakersCan15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpeakersCan15.png; sourceTree = "<group>"; };
 		4CB8E2591AA421FA00F8638A /* SpeakersCan15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpeakersCan15@2x.png"; sourceTree = "<group>"; };
 		4CBA38C61D9C4BF700B739A8 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		4CBBA4BD1E43882700F730D4 /* Crittercism.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crittercism.framework; sourceTree = "<group>"; };
 		4CBCB2C5180878EA008D4522 /* PFAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFAlertViewController.h; sourceTree = "<group>"; };
 		4CBCB2C6180878EA008D4522 /* PFAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFAlertViewController.m; sourceTree = "<group>"; };
 		4CBE7296198C05400090DA6E /* Speakers2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Speakers2.h; sourceTree = "<group>"; };
@@ -1757,6 +1757,7 @@
 				4C429C421D9EDC11008D243A /* libavdevice.a in Frameworks */,
 				4CBA38C71D9C4BF700B739A8 /* libstdc++.tbd in Frameworks */,
 				4C42864019475CE1007A5A11 /* Accelerate.framework in Frameworks */,
+				4CBBA4BE1E43882700F730D4 /* Crittercism.framework in Frameworks */,
 				4CD8E03E1937DD4900A4326C /* AVFoundation.framework in Frameworks */,
 				4CD0599A19F58FF80062C1EC /* ParseFacebookUtils.framework in Frameworks */,
 				4C6456C818EC95280011D002 /* CoreBluetooth.framework in Frameworks */,
@@ -1772,7 +1773,6 @@
 				4CD0599619F58FC00062C1EC /* Parse.framework in Frameworks */,
 				4C429C451D9EDC11008D243A /* libavutil.a in Frameworks */,
 				4C86A61A17BEA9D800E8E9BB /* EventKit.framework in Frameworks */,
-				4C4A456D18E9D7DA003A14C3 /* libCrittercism_v4_1_1.a in Frameworks */,
 				4CD0599819F58FCB0062C1EC /* Bolts.framework in Frameworks */,
 				4C1B9B1817A2269000267303 /* CoreTelephony.framework in Frameworks */,
 				4C01EEDD17931F1F00D49A99 /* MapKit.framework in Frameworks */,
@@ -1965,6 +1965,7 @@
 		4C2D69F7174541100053BCC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4CBBA4BD1E43882700F730D4 /* Crittercism.framework */,
 				4C429C501D9EDCDD008D243A /* CoreVideo.framework */,
 				4C429C4E1D9EDCD5008D243A /* CoreMedia.framework */,
 				4C429C4C1D9EDCC9008D243A /* libz.tbd */,
@@ -2790,7 +2791,6 @@
 				4C4A456818E9D7DA003A14C3 /* Crittercism.h */,
 				4C4A456918E9D7DA003A14C3 /* CrittercismDelegate.h */,
 				4C4A456A18E9D7DA003A14C3 /* dsym_upload.sh */,
-				4C4A456B18E9D7DA003A14C3 /* libCrittercism_v4_1_1.a */,
 			);
 			path = CrittercismSDK;
 			sourceTree = "<group>";
@@ -3913,6 +3913,7 @@
 				4C2D69F2174541100053BCC0 /* Frameworks */,
 				4C2D69F3174541100053BCC0 /* Resources */,
 				4CB3F7DE1CE38771007198C6 /* Embed Watch Content */,
+				4CBBA4BF1E43AFF500F730D4 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -4378,6 +4379,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CBBA4BF1E43AFF500F730D4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APP_ID=\"0f6567c911134e8b953fae2b9302624300555300\"\nAPI_KEY=\"1c0fa49d1076ed47783f45477bdd630b\"\nsource \"${SRCROOT}/CrittercismSDK/dsym_upload.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C2D69F1174541100053BCC0 /* Sources */ = {
